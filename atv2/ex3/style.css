@@ -126,6 +126,7 @@ main>article header {
     background-color: transparent;
     border-bottom: none;
     padding: 20px 24px 0;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -138,6 +139,7 @@ main>article header span {
     letter-spacing: 2px;
     padding: 4px 10px;
     border-radius: 2px;
+    margin-bottom: 5px;
 }
 
 main>article header h2 {
