@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+  border-bottom: 2px solid #ccc;
+}
+
+.header-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  background-color: #bebebe;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 4px 8px;
+  background-color: #bebebe;
+}
+
+.header-direita {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-link {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #bebebe;
+}
+
+.btn-vendas {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #333;
+  border-radius: 6px;
+}
+
+.btn-comece {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  background: #222;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.col-conteudo {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  gap: 24px;
+  background: #f5f5f5;
+  border-right: 3px solid #ddd;
+}
+
+.col-conteudo h1 {
+  font-size: 2.5rem;
+  min-height: 80px;
+  background: #e0e0e0;
+  border: 2px solid #999;
+  padding: 12px;
+}
+
+.col-conteudo p {
+  width: 80%;
+  min-height: 100px;
+  background: #efefef;
+  border: 2px solid #bbb;
+  padding: 10px;
+}
+
+.grupo-botoes {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-preto {
+  display: block;
+  width: 140px;
+  height: 44px;
+  background: #222;
+  border: 2px solid #000;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.btn-branco {
+  display: block;
+  width: 250px;
+  height: 44px;
+  background: #d0d0d0;
+  border: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.coluna-imagem {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fafafa;
+  border-left: 3px solid #ddd;
+}
+
+.imagem-principal {
+  width: 100%;
+  object-fit: contain;
+  border: 2px solid #333;
+}
